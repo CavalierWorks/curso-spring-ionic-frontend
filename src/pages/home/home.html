@@ -2,7 +2,8 @@
 
 <ion-content padding>    
   <img src="assets/imgs/tela-inicial.jpg" alt="logo">
-  <h3>Insira o Número do Cliente</h3>
+  
+  <h4 text-lowercase>Insira o Número do Cliente</h4>
 
   <form>
     <ion-item>
@@ -10,7 +11,7 @@
       <ion-input></ion-input>
     </ion-item>
 
-        <button ion-button block >Entrar</button>
+        <button ion-button block (click)="login()" >Entrar</button>
 
   </form>
 
